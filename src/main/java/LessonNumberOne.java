@@ -1,14 +1,14 @@
 public class LessonNumberOne {
     public static void main(String[] args) {
-        taskNumberOne();
-        taskNumberTwo();
+        taskNumberOne(7675432);
+        taskNumberTwo(15257543);
     }
 
-    public static void taskNumberOne() {
+    public static void taskNumberOne(int numberOne) {
         // !!! получить сумму цифр числа 7675432 !!!
 
         // инициализировать переменную
-        int initialNumber = 7675432;
+        int initialNumber = numberOne;
         // получаем первую цифру
         int firstNumber = initialNumber / 1000000;
         // получаем вторую цифру
@@ -30,12 +30,12 @@ public class LessonNumberOne {
         System.out.println(result);
     }
 
-    public static void taskNumberTwo() {
+    public static void taskNumberTwo(int numberTwo) {
         /* !!! Дано число 15257543. Получить сумму цифр нечетных позиций, произведение четных и оба результата
         премножить между собой. !!! */
 
         // инициализировать переменную
-        int initialNumberTaskTwo = 15257543;
+        int initialNumberTaskTwo = numberTwo;
         // получить первое число - нечетная позиция
         int firstPosition = initialNumberTaskTwo / 10000000;
         // получить второе число - четная позиция
