@@ -1,13 +1,15 @@
 public class LessonNumberOne {
     public static void main(String[] args) {
+        //передаём аргумент в метод taskNumberOne
         taskNumberOne(7675432);
+        //передаём аргумент в метод taskNumberTwo
         taskNumberTwo(15257543);
     }
 
     public static void taskNumberOne(int numberOne) {
         // !!! получить сумму цифр числа 7675432 !!!
 
-        // инициализировать переменную
+        // В переменную присваеваем аргумент
         int initialNumber = numberOne;
         // получаем первую цифру
         int firstNumber = initialNumber / 1000000;
@@ -34,7 +36,7 @@ public class LessonNumberOne {
         /* !!! Дано число 15257543. Получить сумму цифр нечетных позиций, произведение четных и оба результата
         премножить между собой. !!! */
 
-        // инициализировать переменную
+        // В переменную присваеваем аргумент
         int initialNumberTaskTwo = numberTwo;
         // получить первое число - нечетная позиция
         int firstPosition = initialNumberTaskTwo / 10000000;
